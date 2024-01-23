@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #808a8d;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.carts-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 733px) {
+  .carts-container {
+    flex-direction: column;
+  }
+}
+.cart-wrapper {
+  width: 30%;
+  margin-bottom: 10px;
+  background-color: darkgray;
+}
+
+.cart-wrapper .cart-title {
+  margin-left: 10%;
+  font-family: "Times New Roman", serif;
+  font-size: 26px;
+}
+
+.cart-wrapper .cart-content {
+  margin-top: 5%;
+  margin-left: 3%;
+  padding-bottom: 5%;
+}
+
+.cart-wrapper .cart-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.cart-content-image {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Patron_in_Ohmatdyt%2C_28_April_2022_%2804%29.jpg/800px-Patron_in_Ohmatdyt%2C_28_April_2022_%2804%29.jpg");
+}
+
+@media only screen and (max-width: 733px) {
+  .cart-content-image {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 733px) and (max-width: 533px) {
+  .cart-content-image {
+    height: 100px;
+  }
+}
+footer {
+  background-color: #808a8d;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+footer nav li a:hover {
+  color: white;
+}
+
+
+
+/*# sourceMappingURL=index.css.map */
