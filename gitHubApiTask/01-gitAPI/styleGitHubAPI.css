@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#input {
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#getWaitersBtn {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#getWaitersBtn:hover {
+    background-color: #0056b3;
+}
+
+#list {
+    margin-top: 20px;
+}
+
+.repository-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.repository-name {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.repository-language {
+    color: #666;
+}
+
+.repository-link {
+    display: block;
+    color: #007bff;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.repository-link:hover {
+    text-decoration: underline;
+}
+
+#loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    display: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
