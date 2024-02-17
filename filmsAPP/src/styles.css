@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#root {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#addFilmBlock {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+#addFilmBlock label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#addFilmBlock input,
+#addFilmBlock textarea {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#addFilmBlock button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#addFilmBlock button.cancel {
+    background-color: #e74c3c;
+}
+
+#addFilmBlock button:hover {
+    background-color: #45a049;
+}
+
+div {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.edit-film-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.edit-film-button:hover {
+    background-color: #2980b9;
+}
+
+.list-film__p {
+    cursor: pointer;
+}
+
